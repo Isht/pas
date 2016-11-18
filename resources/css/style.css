@@ -1,0 +1,218 @@
+/*body {
+    background: #FFF url('../img/pattern2.png') right bottom;
+    background-size: 100% auto;
+}
+*/
+
+img.login-header {
+    border: none;
+    font-weight: normal;
+    margin: 0px 0px 10px 110px;
+    padding: 0px;
+}
+
+#app-header {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 6px 15px;
+    text-shadow: none;
+    background: #0081b7; 
+}
+
+#app-header small {
+    font-size: 12px;
+}
+
+ul.app-info {
+    /*float: right;*/
+    margin: 14px 0px 10px 550px;
+}
+
+ul.app-info li{
+    color: #FFF;
+    display: block;
+    float: left;
+    list-style: none;
+    font-size: 12px;
+    /*margin: 20px 15px 0px 15px;*/
+    font-weight: 300;
+    padding: 0px 10px;
+    text-shadow: none;
+}
+
+.daftar-total-view {
+    color: #F00;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 0px 0px 0px;
+    margin-right: 10px;
+}
+
+/*GLYPH COLOUR*/
+.hitam .x-btn-glyph, .hitam .x-panel-header-glyph, .hitam .x-menu-item-glyph {
+    opacity: 1;
+    color: #333;
+}
+.putih .x-btn-glyph, .putih .x-panel-header-glyph, .putih .x-menu-item-glyph {
+    opacity: 1;
+    color: #FFF;
+}
+.merah .x-btn-glyph, .merah .x-panel-header-glyph, .merah .x-menu-item-glyph {
+    opacity: 1;
+    color: #cc1616;
+}
+.biru .x-btn-glyph, .biru .x-panel-header-glyph, .biru .x-menu-item-glyph {
+    opacity: 1;
+    color: #157FCC;
+}
+.hijau .x-btn-glyph, .hijau .x-panel-header-glyph, .hijau .x-menu-item-glyph {
+    opacity: 1;
+    color: #5fcc16;
+}
+/*ff7b00*/
+.orange .x-btn-glyph, .orange .x-panel-header-glyph, .orange .x-menu-item-glyph {
+    opacity: 1;
+    color: #ff7b00;
+}
+
+.x-tab-default .x-tab-glyph {
+    opacity: 1;
+}
+
+.x-tab-default-active .x-tab-glyph {
+    color: #157FCC;
+}
+
+h3.no_render {
+    margin: 15px;
+    color: red;
+}
+
+.x-form-new-trigger {
+    background: url('../img/trigger-new.gif') no-repeat;
+}
+
+/*CUSTOM TAB STYLES*/
+.x-tab-default-top {
+    background-image: none;
+    background-color: #FFF;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.x-tab-top-active, .x-tab-top-active:hover, .x-tab-default-top:hover
+{
+    background-image: none;
+    background-color: #EAEAEA;
+}
+
+/*CUSTOM PANEL BAR STYLES*/
+.x-panel-header-default {
+    background-image: none;
+
+    background: #2A98C7; 
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+.x-panel-header-text {
+    color: #FFF;
+}
+
+.acc-custom .x-panel-header-text {
+    color: #333;
+    margin-left: 10px;
+}
+
+/*CUSTOM TOOLBAR & BUTTONS STYLES*/
+.cust-btn
+{
+    border-color: #B0CCF2;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-image: none !important;
+    background-color: #fff !important;
+}
+
+.cust-btn:hover
+{
+    border-color: #B0CCF2;
+    background-image: none !important;
+    background-color: #d5dfeb !important;
+}
+
+.cust-btn-disabled, .cust-btn-disabled:hover, .cust-btn-disabled .x-btn-glyph
+{
+    border-color: #ccc;
+    background-image: none !important;
+    background-color: #F1F1F1 !important;
+    opacity: 0.5;
+
+}
+
+input[type="text"] , input[type="password"] , textarea {
+    background-image: none !important;
+    border: 1px solid #BFBFBF;
+}
+
+input[type="text"]:focus , input[type="password"]:focus , textarea:focus {
+    background-image: none !important;
+    border: 1px solid #0081B7;
+}
+
+/*FOR NOTIFICATION STEAM STYLES*/
+.ux-notification-window .x-window-body {
+    text-align: center;
+    padding: 15px 5px 15px 5px;
+}
+
+.ux-notification-icon-information {
+    background-image: url('images/icon16_info.png');
+}
+
+.ux-notification-icon-error {
+    background-image: url('images/icon16_error.png');
+}
+
+/*WINDOW NO ROUNDED*/
+
+.x-window-header-default-top {
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.x-window , .x-window-default, .x-window-header{
+    border: 1px solid #AEAEAE;
+
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+/*COMBO BOX ITEM STYLE CUSTOM*/
+ul.item-render {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.item-render li {
+    display: inline-block;
+    padding: 0px 5px;
+    min-width: 275px;
+    border-right: 1px dotted #0081B7;
+}
+
+ul.item-render li:last-child {
+    border-right: none;
+}
